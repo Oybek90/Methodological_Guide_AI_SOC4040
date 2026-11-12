@@ -1,0 +1,110 @@
+{
+ "cfg": {
+  "d": 96,
+  "layers": 3,
+  "heads": 4,
+  "ctx": 128,
+  "batch": 32,
+  "steps": 1500,
+  "lr": 0.003
+ },
+ "params": 352992,
+ "log": [
+  [
+   0,
+   3.880251574516296,
+   3.880737507343292
+  ],
+  [
+   100,
+   2.4913176119327547,
+   2.4980629980564117
+  ],
+  [
+   200,
+   2.379860055446625,
+   2.3866076946258543
+  ],
+  [
+   300,
+   1.9201164275407792,
+   1.9149418354034424
+  ],
+  [
+   400,
+   1.673706117272377,
+   1.6792113542556764
+  ],
+  [
+   500,
+   1.5317930817604064,
+   1.5448314785957336
+  ],
+  [
+   600,
+   1.442310059070587,
+   1.4616221070289612
+  ],
+  [
+   700,
+   1.3854031771421433,
+   1.4061670839786529
+  ],
+  [
+   800,
+   1.34156132042408,
+   1.3694327354431153
+  ],
+  [
+   900,
+   1.3003969937562943,
+   1.3234625220298768
+  ],
+  [
+   1000,
+   1.2689890533685684,
+   1.3006255596876144
+  ],
+  [
+   1100,
+   1.2460555404424667,
+   1.2805571228265762
+  ],
+  [
+   1200,
+   1.2252714157104492,
+   1.2629356622695922
+  ],
+  [
+   1300,
+   1.2109975963830948,
+   1.250686028599739
+  ],
+  [
+   1400,
+   1.2043638676404953,
+   1.2449560701847076
+  ],
+  [
+   1500,
+   1.2029244363307954,
+   1.243936225771904
+  ]
+ ],
+ "baselines": {
+  "1-gram": 3.033864090560946,
+  "2-gram": 2.4270255156976726,
+  "3-gram": 1.8910231944687814,
+  "4-gram": 1.6234831200746815,
+  "uniform": 3.9512437185814275
+ },
+ "samples": {
+  "greedy": "emma was a great deal of the same and sort of the subject of the subject\nto have been a situation of the subject of the subject of the strong\nof the same and seemed the ",
+  "T=0.5": "emma was spoken and his eye situation, when respect it was,\nand the grave and way an emma carriage to her considered, and so seem\nwhich she had been so much and seen wer",
+  "T=1.0": "emma was probable; and her together the walkread\na great dituated, in harriet's provinced think with all respect eyous go\nas sooner, was word_ was just necessary.  now t",
+  "T=1.5": "emma was probride;\nand her toking just) too regual einvitatial, but g`to; and week.\nin girl.  `oh; no--\"wreks emma coulght ever be mist;\nwood_ was jux. i likece people t",
+  "top-k=5": "emma was the riched, time to be serious, and the\nsuch a sent of thoughts, and was almost of his friends, whose were,\na very please of the dancing.\"\n\n\"your are serious at"
+ },
+ "final_val": 1.243936225771904,
+ "final_train": 1.2029244363307954
+}

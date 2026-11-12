@@ -1,0 +1,5 @@
+documents: 1472 {'trade': 300, 'acq': 300, 'money-fx': 300, 'interest': 272, 'crude': 300}
+TF-IDF + logistic regression                         0.9435 +- 0.0131
+notebook design (first token, no pad mask, ff=d)     0.8384 +- 0.0208
+mean pooling + padding mask + ff=4d                  0.8972 +- 0.0064
+same, without positional embedding                   0.9006 +- 0.0085

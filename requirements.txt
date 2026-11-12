@@ -1,0 +1,10 @@
+# Minimum versions; after the book is finished, freeze exact versions with `pip freeze`.
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+scikit-learn>=1.4
+scipy>=1.11
+jupyter>=1.0
+# Deep learning chapters (13-20): install the CPU or CUDA build that matches your machine
+# torch>=2.2
+# torchvision>=0.17

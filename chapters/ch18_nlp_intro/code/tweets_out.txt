@@ -1,0 +1,39 @@
+[nltk_data] Error loading twitter_samples: Security Violation
+[nltk_data]     [pathsec.urlopen]: refusing a proxied fetch of
+[nltk_data]     'https://raw.githubusercontent.com/nltk/nltk_data/gh-
+[nltk_data]     pages/index.xml'. A configured proxy performs the
+[nltk_data]     egress, so NLTK cannot pin the validated IP and SSRF
+[nltk_data]     protection cannot be enforced (CWE-918). If and only
+[nltk_data]     if the proxy is trusted to be SSRF-safe, opt in via
+[nltk_data]     NLTK_ALLOW_PROXIED_URLOPEN=1 or
+[nltk_data]     nltk.pathsec.ALLOW_PROXIED_FETCH=True.
+[nltk_data] Error loading punkt_tab: Security Violation
+[nltk_data]     [pathsec.urlopen]: refusing a proxied fetch of
+[nltk_data]     'https://raw.githubusercontent.com/nltk/nltk_data/gh-
+[nltk_data]     pages/index.xml'. A configured proxy performs the
+[nltk_data]     egress, so NLTK cannot pin the validated IP and SSRF
+[nltk_data]     protection cannot be enforced (CWE-918). If and only
+[nltk_data]     if the proxy is trusted to be SSRF-safe, opt in via
+[nltk_data]     NLTK_ALLOW_PROXIED_URLOPEN=1 or
+[nltk_data]     nltk.pathsec.ALLOW_PROXIED_FETCH=True.
+tweets: 5000 5000  unique texts: 10000
+tweets that contain an emoticon-like token: 9976 of 10000
+example: 's in my community this week :)' -> 'bers in my community this week'
+emoticons left after cleaning: 0
+multi-hot, emoticons kept                  0.9963 +- 0.0006
+multi-hot, emoticons removed               0.7809 +- 0.0082
+BoW (counts), emoticons kept               0.7484 +- 0.0041
+BoW (counts), emoticons removed            0.7483 +- 0.0042
+TF-IDF, emoticons removed                  0.7515 +- 0.0048
+TF-IDF, keep stop words                    0.7699 +- 0.0047
+TF-IDF uni+bigrams                         0.7827 +- 0.0067
+TF-IDF, min_df=2                           0.7722 +- 0.0041
+most negative weights: [('(', -7.67), ('i', -0.64), ('please', -0.62), ('back', -0.5), ('miss', -0.47), ('so', -0.45)]
+most positive weights: [(')', 5.15), ('d', 3.41), ('p', 2.06), ('or', 0.59), ('y', 0.56), ('thanks', 0.55)]
+model: Logistic regression                 0.7493 +- 0.0038
+model: Linear SVM                          0.7408 +- 0.0040
+model: Naive Bayes                         0.7517 +- 0.0099
+model: k-NN (k=5, cosine)                  0.7033 +- 0.0110
+model: Decision tree                       0.6852 +- 0.0034
+model: Random forest                       0.7377 +- 0.0116
+GloVe-50 mean vector + LR                  0.7001 +- 0.0072

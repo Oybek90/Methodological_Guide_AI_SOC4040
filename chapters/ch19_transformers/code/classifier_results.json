@@ -1,0 +1,22 @@
+{
+ "results": {
+  "TF-IDF + logistic regression": [
+   0.943502824858757,
+   0.013080041698068085
+  ],
+  "notebook design (first token, no pad mask, ff=d)": [
+   0.8384180665016174,
+   0.020773763404603962
+  ],
+  "mean pooling + padding mask + ff=4d": [
+   0.897175133228302,
+   0.006391906751465167
+  ],
+  "same, without positional embedding": [
+   0.900564968585968,
+   0.00845571376397718
+  ]
+ },
+ "n_docs": 1472,
+ "params": 378629
+}

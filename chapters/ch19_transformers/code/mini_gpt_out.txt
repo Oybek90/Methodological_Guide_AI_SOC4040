@@ -1,0 +1,42 @@
+characters: 887071  vocabulary: 52  train/val: 798364 88707
+baseline val loss (nats/char): {'1-gram': 3.034, '2-gram': 2.427, '3-gram': 1.891, '4-gram': 1.623, 'uniform': 3.951}
+parameters: 352992
+step     0  train 3.880  val 3.881  (3s)
+step   100  train 2.491  val 2.498  (14s)
+step   200  train 2.380  val 2.387  (25s)
+step   300  train 1.920  val 1.915  (36s)
+step   400  train 1.674  val 1.679  (47s)
+step   500  train 1.532  val 1.545  (58s)
+step   600  train 1.442  val 1.462  (69s)
+step   700  train 1.385  val 1.406  (80s)
+step   800  train 1.342  val 1.369  (91s)
+step   900  train 1.300  val 1.323  (102s)
+step  1000  train 1.269  val 1.301  (113s)
+step  1100  train 1.246  val 1.281  (124s)
+step  1200  train 1.225  val 1.263  (134s)
+step  1300  train 1.211  val 1.251  (145s)
+step  1400  train 1.204  val 1.245  (156s)
+step  1500  train 1.203  val 1.244  (168s)
+--- greedy
+emma was a great deal of the same and sort of the subject of the subject
+to have been a situation of the subject of the subject of the strong
+of the same and seemed the 
+--- T=0.5
+emma was spoken and his eye situation, when respect it was,
+and the grave and way an emma carriage to her considered, and so seem
+which she had been so much and seen wer
+--- T=1.0
+emma was probable; and her together the walkread
+a great dituated, in harriet's provinced think with all respect eyous go
+as sooner, was word_ was just necessary.  now t
+--- T=1.5
+emma was probride;
+and her toking just) too regual einvitatial, but g`to; and week.
+in girl.  `oh; no--"wreks emma coulght ever be mist;
+wood_ was jux. i likece people t
+--- top-k=5
+emma was the riched, time to be serious, and the
+such a sent of thoughts, and was almost of his friends, whose were,
+a very please of the dancing."
+
+"your are serious at
