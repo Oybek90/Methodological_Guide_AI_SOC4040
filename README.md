@@ -45,4 +45,4 @@ python3 pca_scratch.py              # run a script from its own folder
 ## Notes
 * Chapters 18-20 use optional libraries (NLTK, gensim, CrewAI); scripts that need them say so at the top
   and fall back to offline versions where possible.
-* Third-party code is not redistributed here. Licence: to be decided by the author.
+* Third-party code is not redistributed here. The code is released under the MIT licence (see `LICENSE`); the text of the guide is licensed separately.
