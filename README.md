@@ -1,7 +1,7 @@
 # Artificial Intelligence (SOC4040): code for the methodological guide
 
 Code accompanying the methodological guide *Artificial Intelligence: Methodological Guide for the Course SOC4040*
-by Dr. Oybek Eraliev, Department of Computer Engineering, Inha University in Tashkent (2026).
+by Dr. Oybek Eraliyev, School of Computer and Information Engineering, Inha University in Tashkent (2026).
 The repository contains **code only**; the guide itself (text, figures, exercises and answers) is distributed separately.
 
 Every chapter of the guide has one folder `chapters/<chapter>/code/` with the scripts and notebooks that produce
